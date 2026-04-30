@@ -200,13 +200,13 @@ class FootballVideoProcessor(AbstractAnnotator, AbstractVideoProcessor):
                                         'position': pos
                                     })
 
-            # Update Formation Detector
-            self.formation_detector.update(formation_update_list, self.frame_num)
+            # Update Formation Detector (Disabled to optimize CPU and clean UI)
+            # self.formation_detector.update(formation_update_list, self.frame_num)
             
             # Compute Formation periodically (every 30 frames)
-            if self.frame_num % 30 == 0:
-                self.team_formations[1] = self.formation_detector.compute_formation(1)
-                self.team_formations[2] = self.formation_detector.compute_formation(2)
+            # if self.frame_num % 30 == 0:
+            #     self.team_formations[1] = self.formation_detector.compute_formation(1)
+            #     self.team_formations[2] = self.formation_detector.compute_formation(2)
 
             # --- Heatmap Logic ---
             # Extract positions and teams for heatmap update
@@ -286,8 +286,8 @@ class FootballVideoProcessor(AbstractAnnotator, AbstractVideoProcessor):
             # --- Draw Dashboard ---
             annotated_frame = self.dashboard_annotator.draw_dashboard(annotated_frame)
             
-            # --- Draw Formation Info ---
-            annotated_frame = self.formation_annotator.draw(annotated_frame, self.team_formations)
+            # --- Draw Formation Info --- (Disabled for a cleaner UI)
+            # annotated_frame = self.formation_annotator.draw(annotated_frame, self.team_formations)
 
             # Append the annotated frame to the processed frames list
             processed_frames.append(annotated_frame)
