@@ -1,7 +1,8 @@
 # 🏆 ProVision-Football-AI
 
 <div align="center">
-  <img src="output_videos/c1_out.mp4" width="800" />
+  <h3>Developed by Dourayed Smari</h3>
+  <video src="output_videos/c1_out.mp4" width="800" controls></video>
   <p><strong>Advanced Computer Vision Pipeline for Professional Football Tactical Analysis</strong></p>
 </div>
 
@@ -106,5 +107,17 @@ ProVision-Football-AI/
 ---
 
 <div align="center">
-  <i>Developed and maintained as a professional open-source contribution to Football Analytics.</i>
+  <i>Developed and maintained by <b>Dourayed Smari</b>.</i>
+  <br>
+  <p>Exploring the intersection of Computer Vision and Sports Science.</p>
 </div>
+
+---
+
+## 👨‍💻 Developer Info
+- **Project Lead:** Dourayed Smari
+- **Role:** AI & Computer Vision Engineer
+- **Focus:** Tactical Sports Analysis & Performance Digitization
+
+---
+
