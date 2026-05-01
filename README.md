@@ -2,8 +2,9 @@
 
 <div align="center">
   <h3>Developed by Dourayed Smari</h3>
-  <video src="output_videos/c1_out.mp4" width="800" controls></video>
+  <img src="output_videos/demo.gif" width="800" />
   <p><strong>Advanced Computer Vision Pipeline for Professional Football Tactical Analysis</strong></p>
+  <a href="output_videos/c1_out.mp4">📺 Watch Full Quality Video</a>
 </div>
 
 ---
