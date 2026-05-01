@@ -1,4 +1,5 @@
-/output_videos
+/output_videos/*
+!/output_videos/c1_out.mp4
 /input_videos
 .venv/
 __pycache__/

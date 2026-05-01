@@ -1,6 +1,7 @@
 # 🏆 ProVision-Football-AI
 
 <div align="center">
+  <img src="output_videos/c1_out.mp4" width="800" />
   <p><strong>Advanced Computer Vision Pipeline for Professional Football Tactical Analysis</strong></p>
 </div>
 
